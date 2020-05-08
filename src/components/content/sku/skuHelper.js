@@ -5,13 +5,16 @@ let allSku =[]
 
 
  function getAllSku(skus) {
-
+    console.log(sku)
    skus.forEach((item) =>{
      let tempAllSku = _getPotentialsku(item)
      allSku = allSku.concat(tempAllSku)
    })
    return Array.from(new Set(allSku.flat())) //多维变一维 ，然后去重
  }
+
+
+
  //通过单个sku获取所以潜在sku
  function _getPotentialsku(sku){
   let skuArray = sku.propPath.split(";")

@@ -19,7 +19,7 @@
 <script>
   import BScroll from 'better-scroll'
   import Popup from "../../components/common/popup/Popup";
-  import { Sku } from 'vant';
+  import { Sku } from '../../components/content/sku/Sku';
 
 
 
@@ -44,12 +44,42 @@
                           {
                               id: '1215',
                               name: '蓝色',
-                              imgUrl: 'https://img.yzcdn.cn/2.jpg',
-                              previewImgUrl: 'https://img.yzcdn.cn/2p.jpg',
                           }
                       ],
                       k_s: 's1' // skuKeyStr：sku 组合列表（下方 list）中当前类目对应的 key 值，value 值会是从属于当前类目的一个规格值 id
+                  },
+                                    {
+                      k: '尺寸', // skuKeyName：规格类目名称
+                      v: [
+                          {
+                              id: '49', // skuValueId：规格值 id
+                              name: 'da', // skuValueName：规格值名称
+
+                          },
+                          {
+                              id: '15',
+                              name: '小',
+                          }
+                      ],
+                      k_s: 's2' // skuKeyStr：sku 组合列表（下方 list）中当前类目对应的 key 值，value 值会是从属于当前类目的一个规格值 id
+                  },
+                          {  k: '形状', // skuKeyName：规格类目名称
+                      v: [
+                          {
+                              id: '9', // skuValueId：规格值 id
+                              name: '员', // skuValueName：规格值名称
+                       
+                          },
+                          {
+                              id: '5',
+                              name: '浪遏',
+
+                          }
+                      ],
+                      k_s: 's2' // skuKeyStr：sku 组合列表（下方 list）中当前类目对应的 key 值，value 值会是从属于当前类目的一个规格值 id
                   }
+                  
+                  
               ],
               // 所有 sku 的组合列表，比如红色、M 码为一个 sku 组合，红色、S 码为另一个组合
               list: [

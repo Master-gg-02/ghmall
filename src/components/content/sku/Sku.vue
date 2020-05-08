@@ -1,10 +1,10 @@
 <template>
     <div class="sku">
-      <sku-hearder
+      <!-- <sku-hearder
         :sku-info="skuInfo"
         :sku="getSkuBySelectedSku()"
         :sku-text="skuText"
-      />
+      /> -->
       <div class="sku-body" >
         <div class="sku-group-container">
           <fence  v-for="item in skuInfo.props"
@@ -15,19 +15,19 @@
                   @changeSelectedSku="changeSelectedSku"
           />
         </div>
-        <div class="">
+        <!-- <div class="">
           <Stepper
             :sku="getSkuBySelectedSku()"
             @getSelectedCount="getSelectedCount"
           />
-        </div>
+        </div> -->
       </div>
-      <div class="sku-actions">
+      <!-- <div class="sku-actions">
         <button class="button button--warning button--large" @click="addToCart"><span class="button__text">加入购物车</span>
         </button>
         <button class="button button--danger button--large"><span class="button__text">立即购买</span>
         </button>
-      </div>
+      </div> -->
     </div>
 </template>
 
