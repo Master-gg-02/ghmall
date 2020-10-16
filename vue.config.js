@@ -11,23 +11,23 @@ module.exports = {
     }
   },
   publicPath: './',
-  
-  devServer: {
-    open: true,
 
-    host: '127.0.0.1',
+  // devServer: {
+  //   open: true,
 
-    port: 8081,
+  //   host: '127.0.0.1',
 
-    https: false,
+  //   port: 8081,
 
-    hotOnly: false,
+  //   https: false,
 
-    proxy: null,
+  //   hotOnly: false,
 
-    before: app => {
-    }
-  },
+  //   proxy: null,
+
+  //   before: app => {
+  //   }
+  // },
 
 }
 

@@ -13,12 +13,14 @@ yarn
 ### Compiles and hot-reloads for development
 ```
 npm run dev
+或
 yarn dev
 ```
 
 ### Compiles and minifies for production
 ```
 npm run build
+或
 yarn build
 ```
 

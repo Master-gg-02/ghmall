@@ -3,7 +3,6 @@
       <div class="left" >选择</div>
       <div class="center"><span>{{skuText}}</span></div>
       <div class="goRight">></div>
-
       <popup v-model="isShow"
              position="bottom"
              :styles="{height:'70%'}"

@@ -6,8 +6,10 @@ import Axios from 'axios'
 export function request(config){
   // 1.创建axios实例
   const instance = Axios.create({
-    baseURL: 'http://123.207.32.32:8000/api/hy',
-    // baseURL : "http://106.54.54.237:8000/api/hy",
+
+    // 这里是写服务器的地址
+    // baseURL: 'http://123.207.32.32:8000/api/hy',
+    baseURL : "http://106.54.54.237:8000/api/hy",
     timeout: 5000
   })
 
