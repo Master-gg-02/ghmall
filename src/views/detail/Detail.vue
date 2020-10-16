@@ -1,6 +1,5 @@
 <template>
   <div id="detail" >
-
     <detail-nav class="detail-nav"></detail-nav>
     <tab-control class="tab-control" v-show="isShow" :style="{'opacity':currentAlpha}" :tabs="tabs" @tabClick="tabClick"></tab-control>
     <Scroll class="scroll" ref="scroll" @getPosetion="getPosetion">
