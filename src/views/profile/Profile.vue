@@ -1,25 +1,24 @@
 <template>
 <div>我的
-  <Sku></Sku>
+    <Sku></Sku>
 
 </div>
-
 </template>
 
 <script>
 import Sku from "../../components/content/sku/Sku"
 
-  export default {
+export default {
     name: "profile",
-    components:{
+    components: {
         Sku
     },
-    data(){
+    data() {
         return {
 
         }
     },
-  }
+}
 </script>
 
 <style scoped>
